@@ -24,7 +24,7 @@ def selenium_task10(): #function
     print("URL:", current_url)
 
     page_contents = driver.page_source  #get complete html source of current webpage
-    with open("Task10.txt", "w", encoding="utf-8") as file: #create text file and write webpage html content
+    with open("Webpage_task_11.txt", "w", encoding="utf-8") as file: #create text file and write webpage html content
         file.write(page_contents)
 
     driver.quit() #close browser
